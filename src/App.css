@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #1890ff;
+}
+
+.ant-input {
+  width: 400px;
+}
+
+.ant-btn {
+  margin-left: 10px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.ant-tabs {
+  margin-top: 20px;
+}
+
+.empty-state {
+  text-align: center;
+  color: #999;
+}
